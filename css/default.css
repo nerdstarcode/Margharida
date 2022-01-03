@@ -48,15 +48,15 @@ img {
     padding: 0;
     margin: 0;
 }
-section.cardapio {
+section#cardapio{
     margin: 0;
     padding: 0;    
 }
-section.mapa{
+section#mapa{
     height: 212px;
     width: 100vw;
 }
-section.galeria{
+section#galeria{
     height: 212px;
     width: 100vw;
 }

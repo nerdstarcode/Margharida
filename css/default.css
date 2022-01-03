@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruge+Boogie&display=swap');
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.container {
+    width: 80%;
+    margin: 0% 5%;
+}
+header {
+    font-family: 'Ruge Boogie', cursive;
+    font-weight: 300;
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+nav {
+    padding-top: 5px;
+    justify-content: center;
+}
+nav ul {
+    justify-content: center;
+    display: flex;
+    
+}
+nav li {
+    display: inline-block;
+    margin: 1% 7%;
+    color: #fff9f9;
+    
+}
+nav li a:hover {
+    color: khaki;
+}
+nav a {
+    color: #fff9f9;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 4vw;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+section.cardapio {
+    margin: 0;
+    padding: 0;    
+}
+section.mapa{
+    height: 212px;
+    width: 100vw;
+}
+section.galeria{
+    height: 212px;
+    width: 100vw;
+}

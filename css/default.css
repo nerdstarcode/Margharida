@@ -29,14 +29,11 @@ nav ul {
 nav li {
     display: inline-block;
     margin: 1% 7%;
-    color: #fff9f9;
-    
 }
 nav li a:hover {
     color: khaki;
 }
 nav a {
-    color: #fff9f9;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 4vw;

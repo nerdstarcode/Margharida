@@ -14,5 +14,37 @@
     background: #527823;
 }
 .branco{
-    color: #fff;
+    color: #fff9f9;
 }
+/*
+
+.bgmenu{
+    background: #aeb10a;
+}
+.bgcardapio{
+    background: hsl(62, 58%, 75%, 80%);
+    
+}
+.bgmapa{
+    background: hsl(61, 49%, 70%);
+}
+.bggaleria{
+    background: hsl(61, 49%, 66%);
+}
+.bgcontatos{
+    background: hsl(87, 52%, 65%);
+}
+.branco{
+    color: hsl(0, 0%, 0%);
+}
+.bglimenu{
+    background: hsl(108, 38%, 42%);
+}
+main{
+    background-image: url(../img/back.png);
+    background-size: 20%;
+}
+div.social a{
+    color: #000;
+}
+*/

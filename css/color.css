@@ -1,23 +1,30 @@
 .bgmenu{
-    background: #230000;
+    background: rgb(35, 0, 0);
+
 }
 .bgcardapio{
-    background: #544025;
+    background: rgba(84, 64, 37, 0.95);
 }
 .bgmapa{
-    background: #352415;
+    background: rgba(53, 36, 21, 0.95);
 }
 .bggaleria{
-    background: #39210C;
+    background: rgba(59, 34, 12, 0.95);
+
 }
 .bgcontatos{
     background: #527823;
+
 }
 .branco{
     color: #fff9f9;
 }
-/*
+body{
+    background-image: url(../img/bg/night.png);
+    background-size: 100vw;
+}
 
+/*
 .bgmenu{
     background: #aeb10a;
 }

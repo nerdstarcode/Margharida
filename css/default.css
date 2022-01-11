@@ -24,7 +24,6 @@ nav {
 nav ul {
     justify-content: center;
     display: flex;
-    
 }
 nav li {
     display: inline-block;

@@ -20,16 +20,14 @@
     -webkit-appearance: none;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     opacity: 0;
-
 }
 .slide-items > * {
-    position: absolute;
     top: 0px;
     opacity: 0;
     pointer-events: none;
 } 
 .slide-items > .active {
-    position: relative;
+
     opacity: 1;
     pointer-events: initial;
 }
@@ -48,19 +46,27 @@
 .slide-thumb > span.active {
     background:rgba(255,255,255,0.9);
 }
+div.cardapio{
+    height: 15vw;
+}
 nav.cardapio{
     width: 100%;
+    position: absolute;
     text-align: center;
 }
-button.cardapio {
-    width: 15%;
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
+nav.cardapio button {
+    width: 12%;
+    display: inline-flex;    
+    bottom: -20px;
     margin: 1% 1%;
     padding: 1%;
-    background-color: rgba(0, 0, 0, 0);
-    border: rgba(0, 0, 0, 0);
+    background-color: rgba(255,255,255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5%;
+}
+img.bancada{
+    width: 98%;
+    padding-left: 1vw;
 }
 div.pdf{
     width: 100%;

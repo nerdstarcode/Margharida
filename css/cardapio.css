@@ -65,8 +65,9 @@ nav.cardapio button {
     border-radius: 5%;
 }
 img.bancada{
-    width: 98%;
-    padding-left: 1vw;
+    width: 95%;
+    height: 10vw;
+    padding-left: 2vw;
 }
 div.pdf{
     width: 100%;

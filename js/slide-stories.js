@@ -24,7 +24,6 @@ class SlideStories{
     }
     //imagem posterior
     next() {
-
         if(this.active < this.items.length - 1){
             this.activeSlide(this.active + 1);
         } else{
@@ -33,43 +32,48 @@ class SlideStories{
     }
     //galeria de sucos
     sucos() {
-        this.activeSlide(0);
-        this.items.forEach(() => (this.thumb.innerHTML -= `<span></span>`));
+        this.items.forEach(() => (this.thumb.innerHTML = ``));
         this.items = this.slide.querySelectorAll('.sucos > *');
         this.thumb = this.slide.querySelector('.slide-thumb');
+        this.addNavigation();
         this.addThumbItems();
+        this.activeSlide(0);
     }
     //galeria de cafes
     cafes() {
-        this.activeSlide(0);
-        this.items.forEach(() => (this.thumb.innerHTML -= `<span></span>`));
+        this.items.forEach(() => (this.thumb.innerHTML = ``));
         this.items = this.slide.querySelectorAll('.cafes > *');
         this.thumb = this.slide.querySelector('.slide-thumb');
+        this.addNavigation();
         this.addThumbItems();
+        this.activeSlide(0);
     }
     //galeria de caldos
     caldos() {
-        this.activeSlide(0);
-        this.items.forEach(() => (this.thumb.innerHTML -= `<span></span>`));
+        this.items.forEach(() => (this.thumb.innerHTML = ``));
         this.items = this.slide.querySelectorAll('.caldos > *');
         this.thumb = this.slide.querySelector('.slide-thumb');
+        this.addNavigation();
         this.addThumbItems();
+        this.activeSlide(0);
     }
     //galeria de tapiocas
     tapiocas() {
-        this.activeSlide(0);
-        this.items.forEach(() => (this.thumb.innerHTML -= `<span></span>`));
+        this.items.forEach(() => (this.thumb.innerHTML = ``));
         this.items = this.slide.querySelectorAll('.tapiocas > *');
         this.thumb = this.slide.querySelector('.slide-thumb');
         this.addThumbItems();
+        this.addNavigation();
+        this.activeSlide(0);
     }
     //galeria de crepiocas
     crepiocas() {
-        this.activeSlide(0);
-        this.items.forEach(() => (this.thumb.innerHTML -= `<span></span>`));
+        this.items.forEach(() => (this.thumb.innerHTML = ``));
         this.items = this.slide.querySelectorAll('.crepiocas > *');
         this.thumb = this.slide.querySelector('.slide-thumb');
         this.addThumbItems();
+        this.addNavigation();
+        this.activeSlide(0);
     }
         
     //aqui fica a parte responsável por chamar a função do botão posterior e anterior ao clicar e das mudanças dos slides de cada item

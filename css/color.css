@@ -2,7 +2,7 @@
     background: #230000;
 }
 .bgcardapio{
-    background: #544025;
+    background: url('../img/fundonoite.png')#544025;
 }
 .bgmapa{
     background: #352415;
@@ -15,4 +15,7 @@
 }
 .branco{
     color: #fff;
+}
+.fundonoite{
+    background-image: url(../img/fundonoite.png);
 }
